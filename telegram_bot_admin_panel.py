@@ -2,6 +2,8 @@ import telegram
 import os
 from flask import Flask, request
 
+from flask import render_template
+
 # Create the Flask app
 app = Flask(__name__)
 
